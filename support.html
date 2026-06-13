@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>発売日アラート サポート</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+      background: #FFF8F0;
+      color: #3A2E22;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .bell { font-size: 56px; margin-bottom: 12px; }
+    h1 { font-size: 26px; font-weight: bold; color: #E65100; text-align: center; margin-bottom: 4px; }
+    .subtitle { font-size: 14px; opacity: 0.7; margin-bottom: 36px; text-align: center; }
+    .card {
+      background: #fff;
+      border: 1px solid #FB8C0033;
+      border-radius: 16px;
+      padding: 24px 28px;
+      max-width: 560px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .card h2 { font-size: 18px; color: #E65100; margin-bottom: 16px; }
+    .card p, .card li { font-size: 15px; line-height: 1.8; }
+    .card ul { padding-left: 20px; }
+    .card li { margin-bottom: 6px; }
+    .q { font-weight: bold; margin-top: 14px; }
+    .a { opacity: 0.85; }
+    .contact-link { display: inline-block; margin-top: 8px; color: #E65100; text-decoration: none; font-weight: bold; }
+    .contact-link:hover { text-decoration: underline; }
+    .foot { font-size: 12px; opacity: 0.6; margin-top: 16px; text-align: center; }
+    .foot a { color: #E65100; }
+  </style>
+</head>
+<body>
+  <div class="bell">🔔</div>
+  <h1>発売日アラート サポート</h1>
+  <p class="subtitle">チケット・グッズ・CDなどの発売日を逃さないためのリマインダー</p>
+
+  <div class="card">
+    <h2>📱 使い方</h2>
+    <ul>
+      <li>右下の「＋」から、発売日・時刻・サイトURLなどを登録します。</li>
+      <li>発売日当日の朝、または発売開始の「◯分前」に通知でお知らせします。</li>
+      <li>「今後」タブで発売日が近い順に確認、「過去」タブで履歴を確認できます。</li>
+      <li>検索やカテゴリでの絞り込み、重要なものの強調表示ができます。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>❓ よくある質問</h2>
+
+    <p class="q">Q. 通知が来ません</p>
+    <p class="a">A. 端末の「設定」アプリで本アプリの通知がオンになっているかご確認ください。アプリ内の「設定」画面でも通知の状態を確認でき、オフの場合はそこから設定を開けます。</p>
+
+    <p class="q">Q.「◯分前」の通知が選べません</p>
+    <p class="a">A.「◯分前」通知は、発売「時刻」を登録した場合のみ有効です。時刻を未指定にしている場合は、当日朝の通知のみとなります。</p>
+
+    <p class="q">Q. 発売時刻が朝の通知時刻より早い場合は？</p>
+    <p class="a">A. 当日の朝では間に合わないため、自動的に「前日の朝」に繰り上げて通知します。</p>
+
+    <p class="q">Q. データはどこに保存されますか？</p>
+    <p class="a">A. すべてお使いの端末内にのみ保存されます。外部送信は行いません。アプリをアンインストールするとデータは削除されますのでご注意ください。</p>
+
+    <p class="q">Q. 広告を消したい</p>
+    <p class="a">A. 設定画面の「広告を非表示（課金）」を購入すると、すべての広告が表示されなくなります。</p>
+  </div>
+
+  <div class="card">
+    <h2>✉️ お問い合わせ</h2>
+    <p>ご不明な点やバグのご報告は、以下までお願いします。</p>
+    <a class="contact-link" href="mailto:ramen.soccerr@gmail.com">ramen.soccerr@gmail.com</a>
+  </div>
+
+  <p class="foot">
+    <a href="privacy_policy.html">プライバシーポリシー</a><br>
+    © 2026 発売日アラート. All rights reserved.
+  </p>
+</body>
+</html>
